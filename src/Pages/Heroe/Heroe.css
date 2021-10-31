@@ -1,0 +1,78 @@
+.p_heroe_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p_hero_card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  background: #bbbfca;
+  height: 300px;
+  width: 500px;
+}
+.p_hero_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+.input {
+  border-radius: 10px;
+  border-style: none;
+  height: 30px;
+  padding-left: 5px;
+}
+.button {
+  border-radius: 10px;
+  height: 30px;
+  width: 90px;
+  color: white;
+  background: #495464;
+}
+.p_hero_card_info {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  background: #e8e8e8;
+  border-radius: 20px;
+  width: 250px;
+}
+.p_hero_card_img {
+  height: 250px;
+  width: 200px;
+}
+.p_hero_card_info_label {
+  width: 100px;
+}
+
+@media (max-width: 575px) {
+  .p_hero_card {
+    width: 400px;
+  }
+  .p_hero_card_info {
+    width: 170px;
+  }
+  .p_hero_card_img {
+    width: 170px;
+  }
+}
+@media (max-width: 445px) {
+  .p_hero_card {
+    flex-direction: column;
+    height: 600px;
+    width: 300px;
+  }
+  .p_hero_card_info {
+    width: 250px;
+  }
+  .p_hero_card_img {
+    width: 250px;
+  }
+}

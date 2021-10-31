@@ -1,0 +1,8 @@
+.l_view__wrapper {
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+.l_view__body {
+  height: calc(100% - 60px);
+  overflow: auto;
+}
